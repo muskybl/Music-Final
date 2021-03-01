@@ -27,18 +27,23 @@ Homepage
 ![image45](https://user-images.githubusercontent.com/34602549/109509413-7126fa00-7ad3-11eb-9fe8-bf80eb417be3.png)
 
 Sign-in and Sign-up
+
 ![unnamed (3)](https://user-images.githubusercontent.com/34602549/109509550-9582d680-7ad3-11eb-9714-2e6337486cc2.png)
 
 Listen the song
+
 ![unnamed (2)](https://user-images.githubusercontent.com/34602549/109509598-a0d60200-7ad3-11eb-968e-8cf9d26c91a1.png)
 
 Create playlist
+
 ![unnamed](https://user-images.githubusercontent.com/34602549/109509635-adf2f100-7ad3-11eb-8015-5395a26158e9.png)
 
 Recommand songs with emotions.
+
 ![unnamed (6)](https://user-images.githubusercontent.com/34602549/109509815-e2ff4380-7ad3-11eb-9ff6-bcd724df28ba.png)
 
 Payment
+
 ![unnamed (7)](https://user-images.githubusercontent.com/34602549/109509908-fc07f480-7ad3-11eb-812f-34d86e43c9bc.png)
 
 
