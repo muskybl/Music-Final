@@ -1,0 +1,2 @@
+
+export const MAX_ARTIST_NAME_DESCRIPTION = 25

@@ -1,0 +1,18 @@
+                    Sign in
+Success : 
+    match Email - Password
+        Status : OK
+        setCookie : token
+        message
+    mismatch
+        Status : Unauthor
+        message
+Fail :
+    Status : Method not allow
+    message
+// res.writeHead(StatusCodes.OK, {
+//     "Set-Cookie": `token=${token};Path=/ddd;HttpOnly=true`,
+//     "Access-Control-Allow-Credentials": "true",
+//     credentials: true,
+//     Secure: true
+// })   

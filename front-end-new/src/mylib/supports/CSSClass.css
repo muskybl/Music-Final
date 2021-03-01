@@ -1,0 +1,31 @@
+.menu {
+    position: relative;
+    display: inline-block;
+    min-width: 50px;
+    font-size: larger;
+}
+.menu::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+    background-color: #d60a81;
+}
+.menu:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+.dark-div {
+    filter: brightness(65%);
+}
+.songs-panel {
+    max-height: 320px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    
+}
