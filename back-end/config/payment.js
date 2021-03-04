@@ -1,10 +1,4 @@
-// key : music
-//api key: cSFMFsHfA8DK2cNH72KZTJUrO9Y1sDRD
-//secret: 2stgyudZN2jy2UXc8YbLpMwKdwYl7fVg
-//TBkekIzxY1y0YxjubhdJI1mVjGqs2CsR
-//8bNTNQe8PbCWUsAzFo9Y8cB0Af6BdNji
-// 123.21.109.112
-// dt :  171.253.5.94
+
 import { v4 as uuidv4 } from 'uuid';
 import fetch from 'node-fetch'
 import uniqid from 'uniqid'
@@ -51,7 +45,7 @@ const getOrderDetail = async (mrc_order_id) => {
 }
 const applyOrder = async ({ account_id, email, name }, month) => {
     const amount = month === 1 ? 10000 : month === 6 ? 20000 : 30000
-    return await createOrder(getKey('TBkekIzxY1y0YxjubhdJI1mVjGqs2CsR', '8bNTNQe8PbCWUsAzFo9Y8cB0Af6BdNji'), {
+    return await createOrder(getKey('apiKey', 'secretKey'), {
         amount,
         description: `${account_id}:${uniqid()}`,
         mrc_order_id: `Payment for ${month} months, ${moment().format('MM-DD-YYYY hh:mm:ss')}`,
@@ -67,7 +61,3 @@ export default {
     applyOrder,
     getOrderDetail
 }
-// senior
-// c++ 
-// fa.hcm@fsoft.com.vn
-// export createBaokimOrder
